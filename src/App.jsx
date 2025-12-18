@@ -14,6 +14,7 @@ export default function App() {
             <Route path="/account" element={<Account />} />
             <Route path="/login" element={<Login />} />
             <Route path="/resources" element={<Resources />} />
+            <Route path="/resources/:category" element={<Resources />} />
             <Route path="/virtues" element={<Virtues />}/>
         
             {/* 404 fallback */}
