@@ -1,0 +1,40 @@
+/*Example mapping (concrete)
+
+Header
+	•	Background: Green 700
+	•	Text/icons: white
+
+Navigation
+	•	Default links: white / light
+	•	Active nav: underline or subtle Green 500
+
+Login button
+	•	Background: Purple
+	•	Text: white
+
+Resource cards
+	•	Background: white
+	•	Border: Green 500
+	•	Title: dark text
+
+Download button
+	•	Background: Purple
+	•	Hover: slightly darker purple
+
+User profile icon
+	•	Neutral by default
+	•	Purple only when active / selected
+*/
+
+:root {
+    --green-900: #707600;
+    --green-700: #96B41E;
+    --green-500: #AFDC30;
+
+    --purple-800: #3C1EB4;
+
+    --color-bg: #FFFFFF;
+
+    --color-text: #111111;
+    --color-border: #DDDDDD;
+}

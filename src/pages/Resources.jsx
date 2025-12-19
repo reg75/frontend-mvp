@@ -1,17 +1,17 @@
 import { useParams } from "react-router-dom"
 
 export default function Resources() {
-    const { category } = useParams()
+    const { category } = useParams();
+
+    const activeFilter = category || "all";
 
     return (
-        <section>
+        <div>
             <h1>Resources</h1>
-            {category ? (
-                <p>Showing resources for category: <strong>{category}</strong></p>
-            ) : (
-                <p>Showing all resource categories</p>
-            )}
             <p>This is the Resources page</p>
-        </section>
+            <p>Active filter: {activeFilter}</p>
+               
+            
+        </div>
     )
 }

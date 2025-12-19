@@ -1,9 +1,12 @@
-import React from "react"
+import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import App from "./App.jsx"
+import App from "./App.jsx";
 import { AuthProvider } from "./services/auth.jsx";
-//import "./styles/global.css"
+
+import "./styles/global.css";
+import "./styles/variables.css";
+import "./styles/components.css";
 
 const domNode = document.getElementById("root")
 console.log("root element: ", domNode)
