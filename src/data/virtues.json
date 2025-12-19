@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "source": "edify-mvp-local-json",
+        "entity": "virtues",
+        "version": "1.0"
+    },
+    "data": [
+        {"id": "virtue-respect",
+        "slug": "respect",
+        "name": "Respect",
+        "shortDescription": "Treat others with dignity", 
+        "image": "/images/virtues/respect.jpg"
+        }
+    ]
+}
