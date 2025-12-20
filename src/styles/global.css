@@ -25,3 +25,10 @@ User profile icon
 	•	Neutral by default
 	•	Purple only when active / selected
 */
+
+body {
+	margin: 0;
+	font-family: var(--font-body);
+	background: var(--color-bg);
+	color: var(--color-text);
+}

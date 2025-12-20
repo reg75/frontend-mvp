@@ -1,8 +1,10 @@
+import AppLayout from "../components/layout/AppLayout"
+
 export default function Virtues() {
     return (
-        <section>
-            <h1>Home</h1>
+        <AppLayout>
+            <h1>Virtues</h1>
             <p>This is the Virtues page</p>
-        </section>
+        </AppLayout>
     )
 }

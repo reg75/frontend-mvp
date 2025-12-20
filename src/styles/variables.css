@@ -32,9 +32,21 @@ User profile icon
     --green-500: #AFDC30;
 
     --purple-800: #3C1EB4;
+	--purple-900: #1D0FA9;
 
     --color-bg: #FFFFFF;
 
     --color-text: #111111;
     --color-border: #DDDDDD;
+
+	--font-body: Verdana, Georgia, Arial, sans-serif;
+
+	/* Spacing scale */
+	--space-1: 4px;
+	--space-2: 8px;
+	--space-3: 12px;
+	--space-4: 16px;
+
+	--radius-sm: 6px;
+	--radius-md: 12px;
 }
