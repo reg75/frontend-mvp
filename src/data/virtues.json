@@ -1,15 +1,93 @@
 {
-    "meta": {
-        "source": "edify-mvp-local-json",
-        "entity": "virtues",
-        "version": "1.0"
+  "meta": {
+    "source": "edify-mvp-local-json",
+    "entity": "virtues",
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "id": "virtue-ambition",
+      "slug": "ambition",
+      "name": "Ambition",
+      "shortDescription": "Aim high and pursue your goals",
+      "image": "/images/virtues/ambition.svg"
     },
-    "data": [
-        {"id": "virtue-respect",
-        "slug": "respect",
-        "name": "Respect",
-        "shortDescription": "Treat others with dignity", 
-        "image": "/images/virtues/respect.jpg"
-        }
-    ]
+    {
+      "id": "virtue-compassion",
+      "slug": "compassion",
+      "name": "Compassion",
+      "shortDescription": "Care how others feel",
+      "image": "/images/virtues/compassion.svg"
+    },
+    {
+      "id": "virtue-courage",
+      "slug": "courage",
+      "name": "Courage",
+      "shortDescription": "Embrace challenge, take positive risks, and speak up",
+      "image": "/images/virtues/courage.svg"
+    },
+    {
+      "id": "virtue-creativity",
+      "slug": "creativity",
+      "name": "Creativity",
+      "shortDescription": "Imagine, connect, and innovate",
+      "image": "/images/virtues/creativity.svg"
+    },
+    {
+      "id": "virtue-critical-thinking",
+      "slug": "critical-thinking",
+      "name": "Critical Thinking",
+      "shortDescription": "Question assumptions, weigh evidence, and reflect on your thinking",
+      "image": "/images/virtues/critical-thinking.svg"
+    },
+    {
+      "id": "virtue-curiosity",
+      "slug": "curiosity",
+      "name": "Curiosity",
+      "shortDescription": "Seek to know, ask, and explore",
+      "image": "/images/virtues/curiosity.svg"
+    },
+    {
+      "id": "virtue-integrity",
+      "slug": "integrity",
+      "name": "Integrity",
+      "shortDescription": "Be honest and true to your values",
+      "image": "/images/virtues/integrity.svg"
+    },
+    {
+      "id": "virtue-justice",
+      "slug": "justice",
+      "name": "Justice",
+      "shortDescription": "Treat others fairly and equally",
+      "image": "/images/virtues/justice.svg"
+    },
+    {
+      "id": "virtue-pride",
+      "slug": "pride",
+      "name": "Pride",
+      "shortDescription": "Value yourself and your community",
+      "image": "/images/virtues/pride.svg"
+    },
+    {
+      "id": "virtue-resilience",
+      "slug": "resilience",
+      "name": "Resilience",
+      "shortDescription": "Keep going when it's tough",
+      "image": "/images/virtues/resilience.svg"
+    },
+    {
+      "id": "virtue-respect",
+      "slug": "respect",
+      "name": "Respect",
+      "shortDescription": "Treat others with dignity",
+      "image": "/images/virtues/respect.svg"
+    },
+    {
+      "id": "virtue-responsibility",
+      "slug": "responsibility",
+      "name": "Responsibility",
+      "shortDescription": "Own your actions and duties",
+      "image": "/images/virtues/responsibility.svg"
+    }
+  ]
 }

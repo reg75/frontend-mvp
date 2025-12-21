@@ -1,28 +1,370 @@
 {
-    "meta": {
-        "source": "edify-mvp-local-json",
-        "entity": "resources",
-        "version": "1.0"
-        },
-    "data": [
-        {
-        "id": "week-01",
-        "weekNumber": 1,
-        "title": "Week 1: Respect",
-        "category": {
-            "id": "weekly-bundles",
-            "slug": "weekly-bundles",
-            "name": "Weekly Bundles"
-        },
-        "virtueIds": ["virtue-respect"],
-        "description": "Form time slides, reading, journal",
-        "file": {
-            "type": "zip",
-            "downloadUrl": "https://example.edify.com"
-        },
-        "image": "/images/resources/folder.png",
-        "updatedAt": "2025-12-19"
-
-        }
-    ]
+  "meta": {
+    "source": "edify-mvp-local-json",
+    "entity": "resources",
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "id": "res-week-01-aiming-high",
+      "title": "Week 1: Aiming High",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-ambition"],
+      "description": "Aiming high: Set goals and try your best to reach them",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-02-honesty",
+      "title": "Week 2: Honesty",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-integrity"],
+      "description": "Honesty: Tell the truth and do what’s right",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-03-bouncing-back",
+      "title": "Week 3: Bouncing Back",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-resilience"],
+      "description": "Bouncing Back: Keep trying, even when it’s hard",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-04-fairness",
+      "title": "Week 4: Fairness",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-justice"],
+      "description": "Fairness: Share and treat people equally",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-05-bravery",
+      "title": "Week 5: Bravery",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-courage"],
+      "description": "Bravery: Try new things and speak up when needed",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-06-respect",
+      "title": "Week 6: Respect",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-respect"],
+      "description": "Respect: Be kind and polite to everyone",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-07-responsibility",
+      "title": "Week 7: Responsibility",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-responsibility"],
+      "description": "Responsibility: Do your jobs and take care of what you’re trusted with",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-08-kindness",
+      "title": "Week 8: Kindness",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-kindness"],
+      "description": "Kindness: Care about how others feel",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-09-pride",
+      "title": "Week 9: Pride",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-pride"],
+      "description": "Pride: Be proud of yourself and your community",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-10-bouncing-back-stay-calm",
+      "title": "Week 10: Bouncing Back",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-resilience"],
+      "description": "Stay calm when things go wrong",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-11-aiming-high-work-hard",
+      "title": "Week 11: Aiming High",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-ambition"],
+      "description": "Work hard to get better",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-12-responsibility-remember",
+      "title": "Week 12: Responsibility",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-responsibility"],
+      "description": "Remember to do your jobs",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-13-curiosity",
+      "title": "Week 13: Curiosity",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-curiosity"],
+      "description": "Curiosity: Ask questions and explore ideas",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-14-fairness-fresh-start",
+      "title": "Week 14: Fairness",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-justice"],
+      "description": "Make up and make a fresh start",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-15-being-creative",
+      "title": "Week 15: Being Creative",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-creativity"],
+      "description": "Being Creative: Imagine, create, and play",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-16-thinking-smart",
+      "title": "Week 16: Thinking Smart",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-critical-thinking"],
+      "description": "Smart thinking: Think and choose carefully",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-17-pride-efforts",
+      "title": "Week 17: Pride",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-pride"],
+      "description": "Be proud of your efforts and progress",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-18-respect-healthy-choices",
+      "title": "Week 18: Respect",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-respect"],
+      "description": "Look after yourself and make healthy choices",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-19-fairness-play-fairly",
+      "title": "Week 19: Fairness",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-justice"],
+      "description": "Play fairly",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-20-kindness-notice-help",
+      "title": "Week 20: Kindness",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-kindness"],
+      "description": "Notice if someone needs help",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-21-bravery-try-new-things",
+      "title": "Week 21: Bravery",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-courage"],
+      "description": "Try new things",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-22-curiosity-ask-good-questions",
+      "title": "Week 22: Curiosity",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-curiosity"],
+      "description": "Ask good questions",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-23-being-creative-solve-problems",
+      "title": "Week 23: Being Creative",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-creativity"],
+      "description": "Find new ways to solve problems",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-24-pride-school-community",
+      "title": "Week 24: Pride",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-pride"],
+      "description": "Be proud of your school and your community",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-25-thinking-smart-ask-why",
+      "title": "Week 25: Thinking Smart",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-critical-thinking"],
+      "description": "Ask why, how, and what if?",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-26-honesty-do-right-thing",
+      "title": "Week 26: Honesty",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-integrity"],
+      "description": "Do the right thing, even when no-one's watching",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-27-responsibility-trust",
+      "title": "Week 27: Responsibility",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-responsibility"],
+      "description": "Be someone people can trust",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-28-respect-treat-everyone",
+      "title": "Week 28: Respect",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-respect"],
+      "description": "Treat everyone with respect",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-29-fairness-share-turns",
+      "title": "Week 29: Fairness",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-justice"],
+      "description": "Share and take turns",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-30-kindness-kind-words",
+      "title": "Week 30: Kindness",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-kindness"],
+      "description": "Use kind words and actions",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-31-bravery-say-sorry",
+      "title": "Week 31: Bravery",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-courage"],
+      "description": "Say sorry if you make a mistake",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-32-responsibility-look-after-things",
+      "title": "Week 32: Responsibility",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-responsibility"],
+      "description": "Look after the things you use",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-33-bouncing-back-learn-from-mistakes",
+      "title": "Week 33: Bouncing Back",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-resilience"],
+      "description": "Learn from mistakes and try again",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-34-curiosity-explore-new-ideas",
+      "title": "Week 34: Curiosity",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-curiosity"],
+      "description": "Explore new ideas",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-35-being-creative-connect-ideas",
+      "title": "Week 35: Being Creative",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-creativity"],
+      "description": "Connect ideas from different topics",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-36-thinking-smart-check-source",
+      "title": "Week 36: Thinking Smart",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-critical-thinking"],
+      "description": "Check where it came from and if it’s true",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-37-respect-care-for-our-world",
+      "title": "Week 37: Respect",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-respect"],
+      "description": "Take care of our classroom, our school, our world",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-38-pride-happy-for-others",
+      "title": "Week 38: Pride",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-pride"],
+      "description": "Be happy for other people’s success",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-39-kindness-how-others-feel",
+      "title": "Week 39: Kindness",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-kindness"],
+      "description": "Think about how others might feel",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
+    },
+    {
+      "id": "res-week-40-honesty-keep-promises",
+      "title": "Week 40: Honesty",
+      "category": { "id": "weekly-bundles", "slug": "weekly-bundles", "name": "Weekly Bundles" },
+      "virtueIds": ["virtue-integrity"],
+      "description": "Keep your promises",
+      "fileType": "ZIP",
+      "downloadUrl": "https://github.com/reg75/edify-assets/raw/refs/heads/main/edify-weekly-bundle-demo.zip"
     }
+  ]
+}
+
