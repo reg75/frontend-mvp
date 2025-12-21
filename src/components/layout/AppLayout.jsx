@@ -10,7 +10,7 @@ export default function AppLayout({ children }) {
 
     function handleLogout() {
         logout();
-        navigate("/");
+        navigate("/", { replace: true});
     }
 
     return (

@@ -49,4 +49,14 @@ User profile icon
 
 	--radius-sm: 6px;
 	--radius-md: 12px;
+
+	--success-border: #16A34A;
+	--success-surface: #ECFDF5;
+
+	--danger-border: #DC2626;
+	--danger-surface: #FEF2F2;
+
+	--info-border: #2563EB;
+	--info-surface: #EFF6FF;
+
 }
