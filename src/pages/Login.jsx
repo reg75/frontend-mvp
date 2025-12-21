@@ -17,6 +17,8 @@ export default function Login() {
     const [password, setPassword] = useState("");
     const [feedback, setFeedback] = useState(null) // {type}
     
+    // EN: Dummy authentication for MVP purposes (no real backend or credentials check)
+    // BR: Autenticação fictícia para fins de MVP (sem backend real ou verificação de credenciais)
     function handleLogin(e) {
         e.preventDefault();
 
@@ -44,6 +46,7 @@ export default function Login() {
         // Clear any previous error
         setFeedback(null);
 
+        
         login();
 
         navigate(fromPath, {replace: true });

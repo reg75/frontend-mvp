@@ -526,3 +526,9 @@ form + .alert,
   }
 }
 
+.resources-toolbar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
