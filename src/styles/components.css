@@ -11,27 +11,54 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 var(--space-4);
-  height: 60px;
+
+  /* Responsive-friendly: don't force a fixed height */
+  min-height: 60px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  /* Allow wrapping on small screens */
+  flex-wrap: wrap;
+  row-gap: var(--space-2);
+  column-gap: var(--space-3);
 }
 
 .header__brand {
   display: flex;
   align-items: center;
   gap: var(--space-2);
+  min-width: 0; /* prevents overflow in tight spaces */
 }
 
 .header__logo {
   font-size: 1.75rem;
   line-height: 1;
+  flex: 0 0 auto;
 }
 
 .header__title {
   font-size: 1.5rem;
   font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+/* Small screens: tighter padding + smaller title */
+@media (max-width: 600px) {
+  .header {
+    padding: var(--space-2) var(--space-3);
+  }
+
+  .header__inner {
+    padding: 0;
+    min-height: 0; /* let content define height */
+  }
+
+  .header__title {
+    font-size: 1.25rem;
+  }
 }
 
 /* == NAVBAR == */
@@ -87,6 +114,30 @@
 
 .nav__link--active {
   background: rgba(255, 255, 255, 0.22);
+}
+
+/* EN: Mobile-friendly wrapping for header + nav (no burger menu)
+   BR: Quebra de linha no mobile para header + nav (sem menu hamburger) */
+@media (max-width: 600px) {
+  /* EN: Allow the title to wrap if space is tight
+     BR: Permite o título quebrar linha quando o espaço estiver apertado */
+  .header__title {
+    white-space: normal;
+  }
+
+  /* EN: Make nav take full width under the brand when wrapped
+     BR: Faz o nav ocupar a largura total quando quebrar linha */
+  .nav {
+    width: 100%;
+  }
+
+  /* EN: Allow nav links to wrap onto multiple lines
+     BR: Permite que os links do menu quebrem em múltiplas linhas */
+  .nav__list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: var(--space-2);
+  }
 }
 
 /* === Alert / === */
@@ -146,7 +197,7 @@
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-2) var(--space-3);
-  border-radius: var(--radius-2);
+  border-radius: var(--radius-md);
   border: 1px solid;
   background: var(--color-bg);
 }
@@ -531,4 +582,60 @@ form + .alert,
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid #ddd;
+}
+
+/* EN: Account page layout container
+   BR: Container de layout da página de conta */
+.account-page {
+  max-width: 720px;
+  padding: 1rem; /* EN: breathing room | BR: espaço lateral */
+  margin: 0 auto;
+}
+
+/* EN: Account page header
+   BR: Cabeçalho da página de conta */
+.account-page__header {
+  margin-bottom: 1rem;
+}
+
+/* EN: Vertical stack helper for this page only
+   BR: Auxiliar de empilhamento vertical apenas para esta página */
+.account-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* EN: Card-style form container
+   BR: Contêiner do formulário em estilo de cartão */
+.account-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+/* EN: Individual form field grouping
+   BR: Agrupamento individual de campo */
+.account-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* EN: Input styling for readability
+   BR: Estilo dos inputs para melhor legibilidade */
+.account-field input {
+  padding: 0.5rem 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* EN: Action buttons layout
+   BR: Layout dos botões de ação */
+.account-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap; /* EN: mobile-safe | BR: seguro para mobile */
 }

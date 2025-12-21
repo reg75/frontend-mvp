@@ -31,7 +31,7 @@ export default function Virtues() {
         return () => {
             ignore = true;
         };
-    }, []);
+        }, []);
 
 
   return (
